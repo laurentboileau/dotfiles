@@ -1,0 +1,19 @@
+[core]
+
+    editor = mate -w
+    excludesfile = ~/.gitignore-global
+
+[diff]
+
+    # Detect copies as well as renames
+    renames = copies
+
+[merge]
+
+    # Include summaries of merged commits in newly created merge commit messages
+    log = true
+    
+[user]
+
+    name = Laurent Boileau
+    email = developer@laurentboileau.ca
