@@ -37,6 +37,9 @@ alias plistbuddy="/usr/libexec/PlistBuddy"
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
 
+# Open current directory in Git Tower
+alias gto='gittower .'
+
 # Functions
 
 # Create a new directory and enter it
