@@ -70,3 +70,8 @@ function o() {
 function bps() {
     afinfo "$@" | grep "bit rate"
 }
+
+# Open the man page as PDF in preview.
+function manpdf() {
+    man -t $1 | open -fa /System/Applications/Preview.app
+}
