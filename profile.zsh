@@ -5,7 +5,7 @@ export EDITOR="/usr/local/bin/mate -w"
 # Aliases
 
 # Directories
-alias w="cd ~/Workspace"
+alias d="cd ~/Developer"
 
 # oh-my-zsh
 alias zshconfig="mate ~/.zshrc"
