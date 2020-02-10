@@ -75,3 +75,8 @@ function bps() {
 function manpdf() {
     man -t $1 | open -fa /System/Applications/Preview.app
 }
+
+# youtube-dl using best mp4/m4a format
+function bestyoutubedl() {
+    youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best' $1
+}
