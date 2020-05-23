@@ -1,4 +1,4 @@
-# zsh profile
+# dotfiles
 
 User configuration files for `zsh` on macOS.
 
