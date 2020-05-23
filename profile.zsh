@@ -7,6 +7,9 @@ export EDITOR="/usr/local/bin/mate -w"
 # Directories
 alias d="cd ~/Developer"
 
+# Terminal
+alias ll="ls -al"
+
 # oh-my-zsh
 alias zshconfig="mate ~/.zshrc"
 alias ohmyzsh="mate ~/.oh-my-zsh"
