@@ -41,7 +41,7 @@ The following is a list of applications I usually install on my mac.
 - Google Chrome.app
 - Hex Fiend.app
 - Icon Slate.app
-- Instapaper.app
+- Instapaper Save.app
 - Messenger.app †
 - MusicBrainz Picard.app
 - Numbers.app
