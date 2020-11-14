@@ -72,6 +72,22 @@ The following is a list of applications I usually install on my mac.
 
 †: Created using Fluid.app
 
+## Homebrew Packages
+
+```
+➜  ~ brew leaves
+```
+- atomicparsley
+- exiftool
+- ffmpeg
+- gource
+- irssi
+- jq
+- swiftlint
+- unrar
+- wget
+- youtube-dl
+
 ## Historical Notes
 
 ### $PATH
