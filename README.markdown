@@ -71,3 +71,9 @@ The following is a list of applications I usually install on my mac.
 - Xcode.app
 
 †: Created using Fluid.app
+
+## Historical Notes
+
+### $PATH
+
+Catalina: `/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin`
