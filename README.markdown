@@ -25,13 +25,16 @@ The following is a list of applications I usually install on my mac.
 - Alfred 4.app
 - Backblaze.app
 - Bartender 3.app
+- Boop.app
 - Core Data Lab.app
 - DaisyDisk.app
 - Dash.app
 - Deliveries.app
+- Developer.app
 - Divvy.app
 - Docker.app
 - Dropbox.app †
+- FUJIFILM X RAW STUDIO.app
 - Firefox.app
 - Fluid.app
 - GarageBand.app
@@ -53,8 +56,8 @@ The following is a list of applications I usually install on my mac.
 - Proxyman.app
 - SF Symbols.app
 - SVG Assets.app
-- Safari.app
 - Screens Connect.app
+- Sim Genie.app
 - Soulver 3.app
 - SuperDuper!.app
 - TaskPaper.app
