@@ -30,7 +30,7 @@ The following is a list of applications I usually install on my mac.
 - 1Password 7.app
 - Alfred 4.app
 - Backblaze.app
-- Bartender 3.app
+- Bartender 4.app
 - Boop.app
 - Core Data Lab.app
 - DaisyDisk.app
@@ -99,5 +99,7 @@ The following is a list of applications I usually install on my mac.
 ## Historical Notes
 
 ### $PATH
+
+Big Sur: `/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin`
 
 Catalina: `/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin`
