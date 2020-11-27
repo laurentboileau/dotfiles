@@ -16,6 +16,12 @@ To start using plugins, configure the plugins array in ~/.zshrc:
 plugins=(git osx textmate vscode xcode)
 ```
 
+## Verified Commits
+
+1. Install `gnupg` and `pinentry-mac` with homebrew
+2. Import keys
+3. Configure Tower.app
+
 ## Applications
 
 The following is a list of applications I usually install on my mac.
@@ -80,9 +86,11 @@ The following is a list of applications I usually install on my mac.
 - atomicparsley
 - exiftool
 - ffmpeg
+- gnupg
 - gource
 - irssi
 - jq
+- pinentry-mac
 - swiftlint
 - unrar
 - wget
