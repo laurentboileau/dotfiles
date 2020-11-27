@@ -83,17 +83,11 @@ The following is a list of applications I usually install on my mac.
 ```
 ➜  ~ brew leaves
 ```
-- atomicparsley
-- exiftool
-- ffmpeg
+- cloc
 - gnupg
-- gource
-- irssi
 - jq
 - pinentry-mac
 - swiftlint
-- unrar
-- wget
 - youtube-dl
 
 ## Historical Notes
