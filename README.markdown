@@ -20,7 +20,9 @@ plugins=(git osx textmate vscode xcode)
 
 1. Install `gnupg` and `pinentry-mac` with homebrew
 2. Import keys
-3. Configure Tower.app
+    - [Trusting imported keys](https://unix.stackexchange.com/a/407070)
+    - [gpg: Sorry, no terminal at all requested - can't get input](https://stackoverflow.com/a/51174117)
+3. [Configure Tower.app](https://www.git-tower.com/help/guides/integration/gpg/mac)
 
 ## Applications
 
