@@ -86,10 +86,12 @@ The following is a list of applications I usually install on my mac.
 ➜  ~ brew leaves
 ```
 - cloc
+- ffmpeg
 - gnupg
 - jq
 - pinentry-mac
 - swiftlint
+- unar
 - youtube-dl
 
 ## Historical Notes
