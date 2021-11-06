@@ -13,7 +13,7 @@ Just copy `profile.zsh` to `$ZSH_CUSTOM`
 To start using plugins, configure the plugins array in ~/.zshrc:
 
 ```
-plugins=(git osx textmate vscode xcode)
+plugins=(git macos textmate xcode)
 ```
 
 ## Verified Commits
