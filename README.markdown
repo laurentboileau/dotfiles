@@ -38,11 +38,6 @@ The following is a list of applications I usually install on my mac.
 - Instapaper Save.app
 - Tweetbot.app
 
+## Notes
 
-## Historical Notes
-
-### $PATH
-
-Big Sur: `/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin`
-
-Catalina: `/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin`
+Default $PATH value: `/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin`
