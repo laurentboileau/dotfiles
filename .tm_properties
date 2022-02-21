@@ -1,6 +1,6 @@
-include = "{$include,.tm_properties,.gitignore}"
+include = "{$include,*,\.*}"
 
-exclude               = "{$exclude}"
+exclude               = "{$exclude,.git}"
 excludeDirectories    = "{$excludeDirectories}"
 excludeInFileChooser  = "{$excludeInFileChooser,.DS_Store}"
 excludeInFolderSearch = "{$excludeInFolderSearch,.DS_Store}"
