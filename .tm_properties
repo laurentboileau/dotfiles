@@ -4,3 +4,6 @@ exclude               = "{$exclude,.git}"
 excludeDirectories    = "{$excludeDirectories}"
 excludeInFileChooser  = "{$excludeInFileChooser,.DS_Store}"
 excludeInFolderSearch = "{$excludeInFolderSearch,.DS_Store}"
+
+softTabs = true
+tabSize = 2
