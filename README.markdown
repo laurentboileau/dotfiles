@@ -8,9 +8,9 @@ User configuration files for [fish shell][fish] on macOS.
 
 1. Install `gnupg` and `pinentry-mac` with homebrew
 2. Import keys
-  - [Trusting imported keys][trust-keys]
-  - [gpg: Sorry, no terminal at all requested - can't get input][gpg-conf]
-3. [Configure Tower.app][tower-gpg-key]
+  1. [Trust imported keys][trust-keys]
+  2. [gpg: Sorry, no terminal at all requested - can't get input][gpg-conf]
+3. [Configure Tower][tower-gpg-key]
 
 [trust-keys]: https://unix.stackexchange.com/a/407070
 [gpg-conf]: https://stackoverflow.com/a/51174117
