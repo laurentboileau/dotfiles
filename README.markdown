@@ -1,8 +1,8 @@
 # dotfiles
 
-User configuration files for `zsh` on macOS.
+User configuration files for [fish shell][fish] on macOS.
 
-Just copy `profile.zsh` to `.zshrc`
+[fish]: https://fishshell.com
 
 ## Verified Commits
 
