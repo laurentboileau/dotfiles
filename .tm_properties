@@ -2,6 +2,7 @@ include = "{$include,*,\.*}"
 
 exclude               = "{$exclude,.git}"
 excludeDirectories    = "{$excludeDirectories}"
+excludeInBrowser      = "{$excludeInBrowser,.DS_Store}"
 excludeInFileChooser  = "{$excludeInFileChooser,.DS_Store}"
 excludeInFolderSearch = "{$excludeInFolderSearch,.DS_Store}"
 
