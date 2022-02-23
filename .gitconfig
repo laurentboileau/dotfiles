@@ -1,32 +1,32 @@
 [core]
 
-    editor = mate -w
-    excludesfile = ~/.gitignore-global
+  editor = mate -w
+  excludesfile = ~/.gitignore-global
 
 [diff]
 
-    # Detect copies as well as renames
-    renames = copies
+  # Detect copies as well as renames
+  renames = copies
 
 [merge]
 
-    # Include summaries of merged commits in newly created merge commit messages
-    log = true
+  # Include summaries of merged commits in newly created merge commit messages
+  log = true
 
 [user]
 
-    name = Laurent Boileau
-    email = developer@laurentboileau.ca
-    signingkey = 3318ACFDF7DCA905D00B6DFAC60D70A06D067F5A
+  name = Laurent Boileau
+  email = developer@laurentboileau.ca
+  signingkey = 3318ACFDF7DCA905D00B6DFAC60D70A06D067F5A
 
 [init]
 
-    defaultBranch = main
+  defaultBranch = main
 
 [commit]
 
-    gpgsign = true
+  gpgsign = true
 
 [gpg]
 
-    program = /usr/local/bin/gpg
+  program = /usr/local/bin/gpg

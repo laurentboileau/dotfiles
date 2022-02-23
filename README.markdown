@@ -8,9 +8,13 @@ Just copy `profile.zsh` to `.zshrc`
 
 1. Install `gnupg` and `pinentry-mac` with homebrew
 2. Import keys
-    - [Trusting imported keys](https://unix.stackexchange.com/a/407070)
-    - [gpg: Sorry, no terminal at all requested - can't get input](https://stackoverflow.com/a/51174117)
-3. [Configure Tower.app](https://www.git-tower.com/help/guides/integration/gpg/mac)
+  - [Trusting imported keys][trust-keys]
+  - [gpg: Sorry, no terminal at all requested - can't get input][gpg-conf]
+3. [Configure Tower.app][tower-gpg-key]
+
+[trust-keys]: https://unix.stackexchange.com/a/407070
+[gpg-conf]: https://stackoverflow.com/a/51174117
+[tower-gpg-key]: https://www.git-tower.com/help/guides/integration/gpg/mac
 
 ## Applications
 
@@ -40,4 +44,4 @@ The following is a list of applications I usually install on my mac.
 
 ## Notes
 
-Default $PATH value: `/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin`
+Default `$PATH` value: `/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin`
