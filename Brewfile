@@ -11,6 +11,7 @@ brew "robotsandpencils/made/xcodes"
 
 cask "alfred"
 cask "dash"
+cask "hex-fiend"
 cask "textmate"
 cask "tower"
 
