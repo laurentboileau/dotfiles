@@ -4,6 +4,17 @@ User configuration files for [fish shell][fish] on macOS.
 
 [fish]: https://fishshell.com
 
+## Software
+
+Install software with [Homebrew][homebrew] and [Brewfile][brewfile].
+
+```
+brew bundle install
+```
+
+[homebrew]: https://brew.sh
+[brewfile]: ./Brewfile
+
 ## Verified Commits
 
 Install `gnupg` and `pinentry-mac` with [Homebrew][homebrew].
@@ -25,8 +36,6 @@ gpg --edit-key user@email.com
 gpg> trust
 gpg> save
 ```
-
-[homebrew]: https://brew.sh
 
 #### See also
 
