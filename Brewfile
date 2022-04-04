@@ -2,10 +2,12 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 
+brew "ffmpeg"
 brew "fish"
 brew "gnupg"
 brew "mas"
 brew "pinentry-mac"
+brew "yt-dlp"
 
 cask "alfred"
 cask "dash"
