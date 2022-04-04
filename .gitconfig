@@ -16,8 +16,8 @@
 [user]
 
   name = Laurent Boileau
-  email = developer@laurentboileau.ca
-  signingkey = 3318ACFDF7DCA905D00B6DFAC60D70A06D067F5A
+  email = developer@laurentboileau.com
+  signingkey = C8AC978B8FD5BE57816D277E9D377C721CD9A0E1
 
 [init]
 
@@ -29,4 +29,4 @@
 
 [gpg]
 
-  program = /usr/local/bin/gpg
+  program = /opt/homebrew/bin/gpg
