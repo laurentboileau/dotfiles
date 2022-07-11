@@ -2,5 +2,5 @@
 # given file
 
 function deletewherefrom
-  xattr -d com.apple.metadata:kMDItemWhereFroms $argv[1]
+	xattr -d com.apple.metadata:kMDItemWhereFroms $argv[1]
 end

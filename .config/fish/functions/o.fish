@@ -2,9 +2,9 @@
 # location
 
 function o
-  if test (count $argv) -eq 0
-    open .
-  else
-    open $argv[1]
-  end
+	if test (count $argv) -eq 0
+		open .
+	else
+		open $argv[1]
+	end
 end

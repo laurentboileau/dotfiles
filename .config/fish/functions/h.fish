@@ -1,5 +1,5 @@
 # Enter $HOME
 
 function h
-  cd $HOME
+	cd $HOME
 end
