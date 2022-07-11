@@ -6,5 +6,5 @@ excludeInBrowser      = "{$excludeInBrowser,.DS_Store}"
 excludeInFileChooser  = "{$excludeInFileChooser,.DS_Store}"
 excludeInFolderSearch = "{$excludeInFolderSearch,.DS_Store}"
 
-softTabs = true
-tabSize = 2
+softTabs = false
+tabSize = 4
