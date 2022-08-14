@@ -9,6 +9,7 @@ brew "gnupg"
 brew "irssi"
 brew "mas"
 brew "pinentry-mac"
+brew "swiftlint"
 brew "yt-dlp"
 
 cask "alfred"
