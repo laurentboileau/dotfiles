@@ -2,6 +2,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 
+brew "asdf"
 brew "ffmpeg"
 brew "fish"
 brew "gnupg"
