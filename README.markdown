@@ -1,8 +1,12 @@
 # dotfiles
 
-User configuration files for [fish shell][fish] on macOS.
+User configuration files for macOS.
+
+- [fish shell][fish]
+- [yt-dlp][yt-dlp]
 
 [fish]: https://fishshell.com
+[yt-dlp]: https://github.com/yt-dlp/yt-dlp
 
 ## Software
 
