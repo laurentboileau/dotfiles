@@ -1,6 +1,6 @@
 [core]
 
-  editor = mate -w
+  editor = nova -w
   excludesfile = ~/.gitignore-global
 
 [diff]

@@ -1,3 +1,3 @@
-# Set EDITOR to TextMate
+# Set EDITOR to Nova
 
-set -U EDITOR "/usr/local/bin/mate -w"
+set -U EDITOR "/usr/local/bin/nova -w"
