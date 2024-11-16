@@ -1,6 +1,6 @@
 # Create a data URL from a file
 
-function dataurl
+function data_url
 	set -l mimeType (file -b --mime-type "$argv[1]")
 	if string match -r -q '^text\/\w+$' "$mimeType"
 		set mimeType "$mimeType;charset=utf-8"

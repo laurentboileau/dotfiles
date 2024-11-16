@@ -1,5 +1,5 @@
 # Disable Spotlight
 
-function spotoff
+function spot_off
 	sudo mdutil -a -i off
 end
