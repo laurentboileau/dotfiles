@@ -10,12 +10,15 @@ User configuration files for macOS.
 
 ## Software
 
-Install software with [Homebrew][homebrew] and [Brewfile][brewfile].
+Install tool versions with [asdf][asdf].
+
+Install packages with [Homebrew][homebrew] and [Brewfile][brewfile].
 
 ```
 brew bundle install
 ```
 
+[asdf]: https://asdf-vm.com/guide/introduction.html
 [homebrew]: https://brew.sh
 [brewfile]: ./Brewfile
 
