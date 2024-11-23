@@ -1,5 +1,5 @@
 # Enter ~/Developer
 
-function d
+function developer
 	cd ~/Developer
 end
