@@ -10,7 +10,7 @@ User configuration files for macOS.
 
 ## Software
 
-Install tool versions with [asdf][asdf].
+Install tool versions with [mise][mise].
 
 Install packages with [Homebrew][homebrew] and [Brewfile][brewfile].
 
@@ -18,9 +18,9 @@ Install packages with [Homebrew][homebrew] and [Brewfile][brewfile].
 brew bundle install
 ```
 
-[asdf]: https://asdf-vm.com/guide/introduction.html
 [homebrew]: https://brew.sh
 [brewfile]: ./Brewfile
+[mise]: https://mise.jdx.dev/getting-started.html
 
 ## Verified Commits
 
