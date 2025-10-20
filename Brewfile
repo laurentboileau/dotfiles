@@ -1,4 +1,3 @@
-tap "homebrew/bundle"
 tap "simonbs/dependency-graph", "https://github.com/simonbs/dependency-graph.git"
 
 brew "cloc"
