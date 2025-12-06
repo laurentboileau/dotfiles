@@ -3,14 +3,20 @@
 User configuration files for macOS.
 
 - [fish shell][fish]
+- [mise][mise]
 - [yt-dlp][yt-dlp]
 
 [fish]: https://fishshell.com
+[mise]: https://mise.jdx.dev/getting-started.html
 [yt-dlp]: https://github.com/yt-dlp/yt-dlp
 
 ## Software
 
 Install tool versions with [mise][mise].
+
+```
+mise install
+```
 
 Install packages with [Homebrew][homebrew] and [Brewfile][brewfile].
 
@@ -20,7 +26,6 @@ brew bundle install
 
 [homebrew]: https://brew.sh
 [brewfile]: ./Brewfile
-[mise]: https://mise.jdx.dev/getting-started.html
 
 ## Verified Commits
 
