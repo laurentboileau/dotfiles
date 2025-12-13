@@ -8,3 +8,5 @@ abbr -a -- gg 'gittower .'
 abbr -a -- nn 'nova .'
 
 abbr -a -- plistbuddy '/usr/libexec/PlistBuddy'
+
+abbr -a -- stations 'xed ~/Developer/Stations/Stations.xcodeproj'
