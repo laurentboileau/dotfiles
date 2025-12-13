@@ -10,4 +10,7 @@ abbr -a -- nn 'nova .'
 abbr -a -- o 'open'
 abbr -a -- plistbuddy '/usr/libexec/PlistBuddy'
 
+abbr -a -- hide_desktop 'desktop_toggle --hidden'
+abbr -a -- show_desktop 'desktop_toggle --shown'
+
 abbr -a -- stations 'xed ~/Developer/Stations/Stations.xcodeproj'
