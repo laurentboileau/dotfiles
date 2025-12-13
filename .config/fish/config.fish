@@ -4,5 +4,3 @@ end
 
 fish_add_path $HOME/.local/bin/
 fish_add_path $HOME/bin/
-
-alias dl="downloads"
