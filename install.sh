@@ -3,6 +3,7 @@
 ln -sv ~/Developer/dotfiles/.config/fish/conf.d/brew.fish ~/.config/fish/conf.d/brew.fish
 ln -sv ~/Developer/dotfiles/.config/fish/conf.d/EDITOR.fish ~/.config/fish/conf.d/EDITOR.fish
 ln -sv ~/Developer/dotfiles/.config/fish/conf.d/mise.fish ~/.config/fish/conf.d/mise.fish
+ln -sv ~/Developer/dotfiles/.config/fish/conf.d/myabbrs.fish ~/.config/fish/conf.d/myabbrs.fish
 ln -sv ~/Developer/dotfiles/.config/fish/config.fish ~/.config/fish/config.fish
 ln -sv ~/Developer/dotfiles/.config/fish/functions ~/.config/fish/functions
 
