@@ -2,6 +2,9 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
+fish_add_path $HOME/.local/bin/
+fish_add_path $HOME/bin/
+
 alias d="developer"
 alias dk="desktop"
 alias dl="downloads"
