@@ -6,3 +6,5 @@ abbr -a -- icloud '~/Library/Mobile\\ Documents/com~apple~CloudDocs'
 
 abbr -a -- gg 'gittower .'
 abbr -a -- nn 'nova .'
+
+abbr -a -- plistbuddy '/usr/libexec/PlistBuddy'
