@@ -2,7 +2,7 @@ function spotlight_toggle --description "Toggle Spotlight indexing on/off."
 	# Parse arguments
 	argparse --strict-longopts -x on,off 'on' 'off' 'help' -- $argv
 	or return
-	
+
 	# Handle --help flag
 	if set -q _flag_help
 		echo "Usage: spotlight_toggle [--on | --off] [--help]"

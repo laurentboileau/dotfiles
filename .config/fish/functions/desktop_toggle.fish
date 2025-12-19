@@ -2,7 +2,7 @@ function desktop_toggle --description "Toggle visibility of desktop icons."
 	# Parse arguments
 	argparse --strict-longopts -x hidden,shown 'hidden' 'shown' 'help' -- $argv
 	or return
-	
+
 	# Handle --help flag
 	if set -q _flag_help
 		echo "Usage: desktop_toggle [--hidden | --shown] [--help]"

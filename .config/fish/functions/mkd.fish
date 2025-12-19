@@ -16,11 +16,11 @@ function mkd --description "Create a new directory and changes to it."
 		echo "  -h/--help  Show this help message"
 		return 0
 	end
-	
+
 	if test (count $argv) -eq 0
 		mkd --help
 		return 0
 	end
-	
+
 	mkdir -p "$argv[1]" && cd "$argv[1]"
 end

@@ -1,32 +1,32 @@
 [core]
 
-  editor = nova -w
-  excludesfile = ~/.gitignore-global
+	editor = nova -w
+	excludesfile = ~/.gitignore-global
 
 [diff]
 
-  # Detect copies as well as renames
-  renames = copies
+	# Detect copies as well as renames
+	renames = copies
 
 [merge]
 
-  # Include summaries of merged commits in newly created merge commit messages
-  log = true
+	# Include summaries of merged commits in newly created merge commit messages
+	log = true
 
 [user]
 
-  name = Laurent Boileau
-  email = developer@laurentboileau.com
-  signingkey = C8AC978B8FD5BE57816D277E9D377C721CD9A0E1
+	name = Laurent Boileau
+	email = developer@laurentboileau.com
+	signingkey = C8AC978B8FD5BE57816D277E9D377C721CD9A0E1
 
 [init]
 
-  defaultBranch = main
+	defaultBranch = main
 
 [commit]
 
-  gpgsign = true
+	gpgsign = true
 
 [gpg]
 
-  program = /opt/homebrew/bin/gpg
+	program = /opt/homebrew/bin/gpg

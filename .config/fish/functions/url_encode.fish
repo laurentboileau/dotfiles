@@ -16,7 +16,7 @@ function url_encode --description "URL encode strings."
 		echo "  -h/--help  Show this help message"
 		return 0
 	end
-	
+
 	if test (count $argv) -eq 0
 		url_encode --help
 		return 0
