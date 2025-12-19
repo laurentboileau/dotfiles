@@ -1,0 +1,26 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[**/config]
+indent_style = tab
+
+[*.fish]
+indent_style = tab
+
+[.gitconfig]
+indent_style = tab
+
+[*.{md,markdown}]
+indent_style = tab
+trim_trailing_whitespace = false
+
+[*.sh]
+indent_style = tab
+
+[*.{toml,conf}]
+indent_style = tab
