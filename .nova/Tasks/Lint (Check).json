@@ -1,0 +1,9 @@
+{
+  "actions" : {
+    "run" : {
+      "enabled" : true,
+      "script" : "eclint check ."
+    }
+  },
+  "openLogOnRun" : "start"
+}
