@@ -5,12 +5,12 @@ function url_encode --description "URL encode strings."
 
 	# Handle --help flag
 	if set -q _flag_help
-		echo "Usage: url_encode STRING [STRING...]"
+		echo "Usage: url_encode [-h|--help] string [string...]"
 		echo ""
 		echo "URL encode strings."
 		echo ""
 		echo "Arguments:"
-		echo "  STRING    One or more strings"
+		echo "  string    One or more strings"
 		echo ""
 		echo "Options:"
 		echo "  -h/--help  Show this help message"

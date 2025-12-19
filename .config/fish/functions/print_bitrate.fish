@@ -5,12 +5,12 @@ function print_bitrate --description "Display bit rate information for one or mo
 
 	# Handle --help flag
 	if set -q _flag_help
-		echo "Usage: print_bitrate FILE [FILE...]"
+		echo "Usage: print_bitrate [-h|--help] file [file...]"
 		echo ""
 		echo "Display bit rate information for one or more audio files."
 		echo ""
 		echo "Arguments:"
-		echo "  FILE    One or more audio file paths (at least one required)"
+		echo "  file    One or more audio files"
 		echo ""
 		echo "Options:"
 		echo "  -h/--help  Show this help message"

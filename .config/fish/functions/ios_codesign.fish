@@ -5,12 +5,12 @@ function ios_codesign --description "Prints codesign entitlements for an *.app f
 
 	# Handle --help flag
 	if set -q _flag_help
-		echo "Usage: ios_codesign [FILE...]"
+		echo "Usage: ios_codesign [-h|--help] file [file...]"
 		echo ""
 		echo "Prints codesign entitlements for an *.app file."
 		echo ""
 		echo "Arguments:"
-		echo "  FILE    print entitlements for this file"
+		echo "  file    One or more .app files"
 		echo ""
 		echo "Options:"
 		echo "  -h/--help  Show this help message"

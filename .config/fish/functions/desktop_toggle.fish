@@ -5,14 +5,14 @@ function desktop_toggle --description "Toggle visibility of desktop icons."
 
 	# Handle --help flag
 	if set -q _flag_help
-		echo "Usage: desktop_toggle [--hidden | --shown] [--help]"
+		echo "Usage: desktop_toggle [--help] [--hidden | --shown]"
 		echo ""
 		echo "Toggle visibility of desktop icons."
 		echo ""
 		echo "Options:"
-		echo "  --hidden  	Hide desktop icons"
-		echo "  --shown  	Show desktop icons"
-		echo "  --help  	Show this help message"
+		echo "  --hidden  Hide desktop icons"
+		echo "  --shown   Show desktop icons"
+		echo "  --help    Show this help message"
 		return 0
 	end
 

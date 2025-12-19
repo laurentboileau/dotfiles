@@ -5,12 +5,12 @@ function delete_where_from --description "Delete the com.apple.metadata:kMDItemW
 
 	# Handle --help flag
 	if set -q _flag_help
-		echo "Usage: delete_where_from FILE [FILE...]"
+		echo "Usage: delete_where_from [-h|--help] file [file...]"
 		echo ""
 		echo "Delete the com.apple.metadata:kMDItemWhereFroms extended attribute on files."
 		echo ""
 		echo "Arguments:"
-		echo "  FILE    One or more files"
+		echo "  file    One or more files"
 		echo ""
 		echo "Options:"
 		echo "  -h/--help  Show this help message"
