@@ -9,7 +9,7 @@ ln -sv ~/Developer/dotfiles/.config/fish/functions ~/.config/fish/functions
 
 ln -sv ~/Developer/dotfiles/.config/mise/config.toml ~/.config/mise/config.toml
 
-ln -sv ~/Developer/dotfiles/.config/yt-dlp/config  ~/.config/yt-dlp/config
+ln -sv ~/Developer/dotfiles/.config/yt-dlp/config ~/.config/yt-dlp/config
 
 ln -sv ~/Developer/dotfiles/.gitconfig ~/.gitconfig
 ln -sv ~/Developer/dotfiles/.gitignore-global ~/.gitignore-global
