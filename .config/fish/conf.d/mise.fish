@@ -1,1 +1,1 @@
-/Users/laurent/bin/mise activate fish | source # added by https://mise.run/fish
+/opt/homebrew/bin/mise activate fish | source # added by https://mise.run/fish
