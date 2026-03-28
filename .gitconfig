@@ -30,3 +30,4 @@
 [gpg]
 
 	program = /opt/homebrew/bin/gpg
+	format = openpgp
