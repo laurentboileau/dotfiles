@@ -1,3 +1,59 @@
+min_version = "2026.7.0"
+
+[settings]
+dotfiles.root = "~/.dotfiles"
+dotfiles.default_mode = "symlink"
+
 [tools]
-node = "24.11.1"
-python = "3.14"
+node = "latest"
+usage = "latest"
+
+[bootstrap.packages]
+"brew:cloc" = "latest"
+"brew:ffmpeg" = "latest"
+"brew:fish" = "latest"
+"brew:gnupg" = "latest"
+"brew:irssi" = "latest"
+"brew:mas" = "latest"
+"brew:pinentry-mac" = "latest"
+"brew:wget" = "latest"
+"brew:xcodegen" = "latest"
+"brew:yt-dlp" = "latest"
+"brew-cask:claude-code@latest" = "latest"
+"brew-cask:codex" = "latest"
+"brew-cask:netnewswire" = "latest"
+"brew-cask:nova" = "latest"
+"brew-cask:raycast" = "latest"
+"brew-cask:tower" = "latest"
+"brew-cask:xcodes-app" = "latest"
+"mas:1365531024" = "latest" # 1Blocker
+"mas:1460684638" = "latest" # Core Data Lab
+"mas:411643860" = "latest" # DaisyDisk
+"mas:290986013" = "latest" # Deliveries
+"mas:1388020431" = "latest" # DevCleaner
+"mas:640199958" = "latest" # Developer
+"mas:6444602274" = "latest" # Ivory
+"mas:361285480" = "latest" # Keynote
+"mas:361304891" = "latest" # Numbers
+"mas:361309726" = "latest" # Pages
+"mas:1179623856" = "latest" # Pastebot
+"mas:1663047912" = "latest" # Screens
+"mas:1090940630" = "latest" # TaskPaper
+"mas:1491071483" = "latest" # Tot
+
+[dotfiles]
+"~/.dotfiles" = { source = "../..", mode = "symlink" }
+"~/.config/mise/config.toml" = { source = "config.toml", mode = "symlink" }
+"~/.config/fish/conf.d" = { source = "../../.config/fish/conf.d", mode = "symlink-each" }
+"~/.config/fish/functions" = { source = "../../.config/fish/functions", mode = "symlink-each" }
+"~/.config/yt-dlp/config" = { source = "../../.config/yt-dlp/config", mode = "symlink" }
+"~/.gitconfig" = { source = "../../.gitconfig", mode = "symlink" }
+"~/.gitignore-global" = { source = "../../.gitignore-global", mode = "symlink" }
+"~/.gnupg/gpg-agent.conf" = { source = "../../.gnupg/gpg-agent.conf", mode = "symlink" }
+"~/.gnupg/gpg.conf" = { source = "../../.gnupg/gpg.conf", mode = "symlink" }
+
+[bootstrap.mise_shell_activate]
+fish = "activate"
+
+[bootstrap.user]
+login_shell = "/opt/homebrew/bin/fish"

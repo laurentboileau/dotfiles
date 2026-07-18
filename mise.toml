@@ -1,0 +1,10 @@
+[tools]
+"npm:eclint" = "latest"
+
+[tasks.check]
+description = "Lint Check"
+run = "mise exec npm -- eclint check ."
+
+[tasks.fix]
+description = "Lint Fix"
+run = "mise exec npm -- eclint fix ."

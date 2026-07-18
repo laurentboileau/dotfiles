@@ -4,36 +4,40 @@ User configuration files for macOS.
 
 - [fish shell][fish]
 - [mise][mise]
-- [yt-dlp][yt-dlp]
 
 [fish]: https://fishshell.com
 [mise]: https://mise.jdx.dev/getting-started.html
-[yt-dlp]: https://github.com/yt-dlp/yt-dlp
 
-## Software
+## Bootstrap
 
-Install tool versions with [mise][mise].
-
-```
-mise install
-```
-
-Install packages with [Homebrew][homebrew] and [Brewfile][brewfile].
+Install `mise`:
 
 ```
-brew bundle install
+curl https://mise.run | sh
+~/.local/bin/mise --version
 ```
 
-[homebrew]: https://brew.sh
-[brewfile]: ./Brewfile
+Clone this repository and bootstrap the machine.
+
+```
+~/.local/bin/mise trust
+~/.local/bin/mise bootstrap --dry-run
+~/.local/bin/mise bootstrap --yes
+```
+
+Start a new shell to apply changes.
+
+## Autocompletion
+
+Follow the [Autocompletion][autocompletion] steps for fish shell.
+
+[autocompletion]: https://mise.jdx.dev/installing-mise.html#autocompletion
+
+Start a new shell to apply changes.
 
 ## Verified Commits
 
-Install `gnupg` and `pinentry-mac` with [Homebrew][homebrew].
-
-```
-brew install gnupg pinentry-mac
-```
+`gnupg` and `pinentry-mac` are installed by bootstrap.
 
 Import private key.
 
@@ -58,7 +62,3 @@ gpg> save
 [restart-gpg-agent]: https://superuser.com/a/1150399
 [tower-gpg-key]: https://www.git-tower.com/help/guides/integration/gpg/mac
 [gpg-conf]: https://stackoverflow.com/a/51174117
-
-## Notes
-
-Default `$PATH` value: `/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin`
