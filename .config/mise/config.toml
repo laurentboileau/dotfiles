@@ -42,15 +42,15 @@ usage = "latest"
 "mas:1491071483" = "latest" # Tot
 
 [dotfiles]
-"~/.dotfiles" = { source = "../..", mode = "symlink" }
-"~/.config/mise/config.toml" = { source = "config.toml", mode = "symlink" }
-"~/.config/fish/conf.d" = { source = "../../.config/fish/conf.d", mode = "symlink-each" }
-"~/.config/fish/functions" = { source = "../../.config/fish/functions", mode = "symlink-each" }
-"~/.config/yt-dlp/config" = { source = "../../.config/yt-dlp/config", mode = "symlink" }
-"~/.gitconfig" = { source = "../../.gitconfig", mode = "symlink" }
-"~/.gitignore-global" = { source = "../../.gitignore-global", mode = "symlink" }
-"~/.gnupg/gpg-agent.conf" = { source = "../../.gnupg/gpg-agent.conf", mode = "symlink" }
-"~/.gnupg/gpg.conf" = { source = "../../.gnupg/gpg.conf", mode = "symlink" }
+"~/.dotfiles" = "~/Developer/dotfiles"
+"~/.config/mise/config.toml" = "~/Developer/dotfiles/.config/mise/config.toml"
+"~/.config/fish/conf.d" = { source = "~/.dotfiles/.config/fish/conf.d", mode = "symlink-each" }
+"~/.config/fish/functions" = { source = "~/.dotfiles/.config/fish/functions", mode = "symlink-each" }
+"~/.config/yt-dlp/config" = "~/.dotfiles/.config/yt-dlp/config"
+"~/.gitconfig" = "~/.dotfiles/.gitconfig"
+"~/.gitignore-global" = "~/.dotfiles/.gitignore-global"
+"~/.gnupg/gpg-agent.conf" = "~/.dotfiles/.gnupg/gpg-agent.conf"
+"~/.gnupg/gpg.conf" = "~/.dotfiles/.gnupg/gpg.conf"
 
 [bootstrap.mise_shell_activate]
 fish = "activate"
