@@ -10,19 +10,26 @@ User configuration files for macOS.
 
 ## Bootstrap
 
+Setup `~/bin`:
+
+```
+mkdir ~/bin
+chflags hidden ~/bin
+```
+
 Install `mise`:
 
 ```
-curl https://mise.run | sh
-~/.local/bin/mise --version
+curl https://mise.run | MISE_INSTALL_PATH=~/bin/mise sh
+~/bin/mise --version
 ```
 
 Clone this repository and bootstrap the machine.
 
 ```
-~/.local/bin/mise trust
-~/.local/bin/mise bootstrap --dry-run
-~/.local/bin/mise bootstrap --yes
+~/bin/mise trust
+~/bin/mise bootstrap --dry-run
+~/bin/mise bootstrap --yes
 ```
 
 Start a new shell to apply changes.
