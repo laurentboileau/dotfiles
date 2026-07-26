@@ -7,6 +7,7 @@ dotfiles.default_mode = "symlink"
 [tools]
 node = "latest"
 usage = "latest"
+yt-dlp = { version = "latest", rename_exe = "yt-dlp" }
 
 [bootstrap.packages]
 "brew:cloc" = "latest"
@@ -19,7 +20,6 @@ usage = "latest"
 "brew:pinentry-mac" = "latest"
 "brew:wget" = "latest"
 "brew:xcodegen" = "latest"
-"brew:yt-dlp" = "latest"
 "brew-cask:claude-code@latest" = "latest"
 "brew-cask:codex" = "latest"
 "brew-cask:netnewswire" = "latest"
