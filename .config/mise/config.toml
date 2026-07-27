@@ -6,6 +6,7 @@ dotfiles.default_mode = "symlink"
 
 [tools]
 claude = "latest"
+codex = "latest"
 java = "temurin-17"
 node = "latest"
 opencode = "latest"
@@ -25,7 +26,6 @@ github_attestations = false
 "brew:wget" = "latest"
 "brew-cask:1password" = "latest"
 "brew-cask:android-studio" = "latest"
-"brew-cask:codex" = "latest"
 "brew-cask:ghostty" = "latest"
 "brew-cask:google-chrome" = "latest"
 "brew-cask:harvest" = "latest"
