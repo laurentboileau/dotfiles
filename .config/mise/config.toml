@@ -6,6 +6,8 @@ dotfiles.root = "~/.dotfiles"
 dotfiles.default_mode = "symlink"
 
 [tools]
+claude = "latest"
+codex = "latest"
 deno = "latest"
 java = "temurin-21"
 mas = "latest"
