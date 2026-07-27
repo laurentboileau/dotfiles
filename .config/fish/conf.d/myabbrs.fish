@@ -17,4 +17,4 @@ abbr -a -- show_desktop 'desktop_toggle --shown'
 abbr -a -- spot_off 'spotlight_toggle --off'
 abbr -a -- spot_on 'spotlight_toggle --on'
 
-abbr -a -- stations 'xed ~/Developer/Stations/Stations.xcodeproj'
+abbr -a -- q 'opencode ~/Developer/q/'

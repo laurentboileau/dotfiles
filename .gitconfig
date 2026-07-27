@@ -16,18 +16,9 @@
 [user]
 
 	name = Laurent Boileau
-	email = developer@laurentboileau.com
-	signingkey = C8AC978B8FD5BE57816D277E9D377C721CD9A0E1
+	email = lboileau@mirego.com
 
 [init]
 
 	defaultBranch = main
 
-[commit]
-
-	gpgsign = true
-
-[gpg]
-
-	program = /opt/homebrew/bin/gpg
-	format = openpgp
