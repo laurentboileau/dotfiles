@@ -36,7 +36,7 @@ yt-dlp = { version = "latest", rename_exe = "yt-dlp" }
 "mas:361285480" = "latest" # Keynote
 "mas:361304891" = "latest" # Numbers
 "mas:361309726" = "latest" # Pages
-"mas:1179623856" = "latest" # Pastebot
+"mas:6761201231" = "latest" # Pastebot
 "mas:1663047912" = "latest" # Screens
 "mas:1090940630" = "latest" # TaskPaper
 "mas:1491071483" = "latest" # Tot
