@@ -5,7 +5,7 @@ dotfiles.root = "~/.dotfiles"
 dotfiles.default_mode = "symlink"
 
 [tools]
-node = "latest"
+deno = "latest"
 usage = "latest"
 yt-dlp = { version = "latest", rename_exe = "yt-dlp" }
 
