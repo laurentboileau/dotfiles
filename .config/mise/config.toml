@@ -24,6 +24,7 @@ yt-dlp = { version = "latest", rename_exe = "yt-dlp" }
 "brew-cask:iina" = "latest"
 "brew-cask:netnewswire" = "latest"
 "brew-cask:nova" = "latest"
+"brew-cask:paintcode" = "latest"
 "brew-cask:raycast" = "latest"
 "brew-cask:tower" = "latest"
 "brew-cask:xcodes-app" = "latest"
