@@ -26,6 +26,7 @@ yt-dlp = { version = "latest", rename_exe = "yt-dlp" }
 "brew-cask:nova" = "latest"
 "brew-cask:paintcode" = "latest"
 "brew-cask:raycast" = "latest"
+"brew-cask:superduper" = "latest"
 "brew-cask:tower" = "latest"
 "brew-cask:xcodes-app" = "latest"
 "mas:1365531024" = "latest" # 1Blocker
