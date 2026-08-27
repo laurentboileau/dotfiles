@@ -5,21 +5,21 @@ dotfiles.root = "~/.dotfiles"
 dotfiles.default_mode = "symlink"
 
 [tools]
+codex = "latest"
 deno = "latest"
+ffmpeg = "latest"
+mas = "latest"
 usage = "latest"
+xcodegen = "latest"
 yt-dlp = { version = "latest", rename_exe = "yt-dlp" }
 
 [bootstrap.packages]
-"brew:ffmpeg" = "latest"
 "brew:fish" = "latest"
 "brew:gh" = "latest"
 "brew:gnupg" = "latest"
 "brew:irssi" = "latest"
-"brew:mas" = "latest"
 "brew:pinentry-mac" = "latest"
 "brew:wget" = "latest"
-"brew:xcodegen" = "latest"
-"brew-cask:codex" = "latest"
 "brew-cask:iina" = "latest"
 "brew-cask:netnewswire" = "latest"
 "brew-cask:nova" = "latest"
