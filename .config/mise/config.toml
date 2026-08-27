@@ -13,6 +13,9 @@ usage = "latest"
 xcodegen = "latest"
 yt-dlp = { version = "latest", rename_exe = "yt-dlp" }
 
+[bootstrap.brew]
+adopt = true
+
 [bootstrap.packages]
 "brew:fish" = "latest"
 "brew:gh" = "latest"
