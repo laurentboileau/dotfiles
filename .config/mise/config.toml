@@ -19,7 +19,6 @@ yt-dlp = { version = "latest", rename_exe = "yt-dlp" }
 "brew:pinentry-mac" = "latest"
 "brew:wget" = "latest"
 "brew:xcodegen" = "latest"
-"brew-cask:claude-code@latest" = "latest"
 "brew-cask:codex" = "latest"
 "brew-cask:iina" = "latest"
 "brew-cask:netnewswire" = "latest"
