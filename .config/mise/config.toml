@@ -27,7 +27,6 @@ adopt = true
 "brew-cask:iina" = "latest"
 "brew-cask:netnewswire" = "latest"
 "brew-cask:nova" = "latest"
-"brew-cask:paintcode" = "latest"
 "brew-cask:raycast" = "latest"
 "brew-cask:superduper" = "latest"
 "brew-cask:tower" = "latest"
