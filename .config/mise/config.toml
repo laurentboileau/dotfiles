@@ -28,6 +28,7 @@ adopt = true
 "brew-cask:netnewswire" = "latest"
 "brew-cask:nova" = "latest"
 "brew-cask:raycast" = "latest"
+"brew-cask:sim-genie" = "latest"
 "brew-cask:superduper" = "latest"
 "brew-cask:tower" = "latest"
 "brew-cask:xcodes-app" = "latest"
