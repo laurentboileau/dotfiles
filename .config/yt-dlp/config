@@ -1,3 +1,0 @@
--f bestvideo+bestaudio/best
---merge-output-format mp4/mkv
--o %(title)s.%(ext)s
