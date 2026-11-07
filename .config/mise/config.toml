@@ -24,6 +24,7 @@ adopt = true
 "brew:irssi" = "latest"
 "brew:pinentry-mac" = "latest"
 "brew:wget" = "latest"
+"brew-cask:cleanupbuddy" = "latest"
 "brew-cask:downie" = "latest"
 "brew-cask:iina" = "latest"
 "brew-cask:music-miniplayer" = "latest"
