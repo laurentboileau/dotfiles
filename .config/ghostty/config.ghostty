@@ -10,6 +10,9 @@ window-height = 30
 window-padding-x = 8
 window-padding-y = 8
 
+# Start new windows in the default working directory instead of the previously focused window's.
+window-inherit-working-directory = false
+
 # Use Option as Meta for shell shortcuts and keep the bell silent.
 macos-option-as-alt = true
 bell-features = no-audio
