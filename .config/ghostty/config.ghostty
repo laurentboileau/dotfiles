@@ -1,0 +1,15 @@
+font-family = SF Mono
+font-family = Monaco
+font-size = 14
+
+# Initial size in columns and rows
+window-width = 100
+window-height = 30
+
+# Keep some space between terminal content and the window edges.
+window-padding-x = 8
+window-padding-y = 8
+
+# Use Option as Meta for shell shortcuts and keep the bell silent.
+macos-option-as-alt = true
+bell-features = no-audio

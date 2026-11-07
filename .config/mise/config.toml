@@ -57,6 +57,7 @@ adopt = true
 "~/.config/mise/config.toml" = "~/Developer/dotfiles/.config/mise/config.toml"
 "~/.config/fish/conf.d" = { source = "~/.dotfiles/.config/fish/conf.d", mode = "symlink-each" }
 "~/.config/fish/functions" = { source = "~/.dotfiles/.config/fish/functions", mode = "symlink-each" }
+"~/.config/ghostty/config.ghostty" = "~/.dotfiles/.config/ghostty/config.ghostty"
 "~/.config/yt-dlp/config" = "~/.dotfiles/.config/yt-dlp/config"
 "~/.gitconfig" = "~/.dotfiles/.gitconfig"
 "~/.gitignore-global" = "~/.dotfiles/.gitignore-global"
