@@ -26,6 +26,7 @@ adopt = true
 "brew:wget" = "latest"
 "brew-cask:cleanupbuddy" = "latest"
 "brew-cask:downie" = "latest"
+"brew-cask:ghostty" = "latest"
 "brew-cask:iina" = "latest"
 "brew-cask:music-miniplayer" = "latest"
 "brew-cask:netnewswire" = "latest"
