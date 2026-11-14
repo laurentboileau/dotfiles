@@ -18,8 +18,12 @@ function open --description "Open files (or \$PWD) if none supplied."
 	end
 
 	# Open each file path
-	set -l files $argv .
+	set -l files $argv
+	if test (count $files) -eq 0
+		set files .
+	end
 	for file in $files
 		/usr/bin/open "$file"
+		or return $status
 	end
 end
