@@ -22,9 +22,16 @@ function print_bitrate --description "Display bit rate information for one or mo
 		return 0
 	end
 
-	# Process each file
+	# Process each file, reporting failures without stopping
+	set -l result 0
 	for filepath in $argv
-		set -l bps (afinfo "$filepath" | grep "bit rate")
-		printf '%s –> %s\n' $filepath $bps
+		set -l info "$(afinfo "$filepath")"
+		or begin
+			set result $status
+			continue
+		end
+		set -l bps (printf '%s\n' "$info" | grep "bit rate")
+		printf '%s –> %s\n' "$filepath" "$bps"
 	end
+	return $result
 end

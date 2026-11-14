@@ -24,10 +24,18 @@ curl https://mise.run | MISE_INSTALL_PATH=~/bin/mise sh
 ~/bin/mise --version
 ```
 
-Clone this repository and bootstrap the machine.
+Clone this repository into `~/Developer/dotfiles`. Create the `~/.dotfiles`
+alias and link the provisioning configuration into mise's global configuration
+directory before bootstrapping. Mise validates dotfile sources before creating
+links, so the alias must already exist:
 
 ```
-~/bin/mise trust
+cd ~/Developer/dotfiles
+ln -s ~/Developer/dotfiles ~/.dotfiles
+mkdir -p ~/.config/mise
+ln -s ~/Developer/dotfiles/.config/mise/config.toml ~/.config/mise/config.toml
+~/bin/mise trust .config/mise/config.toml
+~/bin/mise trust mise.toml
 ~/bin/mise bootstrap --dry-run
 ~/bin/mise bootstrap --yes
 ```

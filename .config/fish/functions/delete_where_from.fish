@@ -22,8 +22,19 @@ function delete_where_from --description "Delete the com.apple.metadata:kMDItemW
 		return 0
 	end
 
-	# Process each file
+	# Process each file, reporting failures without stopping
+	set -l result 0
 	for filepath in $argv
-		xattr -d com.apple.metadata:kMDItemWhereFroms $filepath
+		# Skip files without the attribute; `xattr -d` fails on them
+		set -l attributes (xattr -- $filepath)
+		or begin
+			set result $status
+			continue
+		end
+		contains -- com.apple.metadata:kMDItemWhereFroms $attributes
+		or continue
+		xattr -d com.apple.metadata:kMDItemWhereFroms -- $filepath
+		or set result $status
 	end
+	return $result
 end

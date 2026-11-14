@@ -22,9 +22,15 @@ function ios_codesign --description "Prints codesign entitlements for an *.app f
 		return 0
 	end
 
-	# Open each file path
+	# Process each file, reporting failures without stopping
+	set -l result 0
 	for filepath in $argv
-		set -l entitlements (codesign -d --entitlements - "$file")
-		printf '%s –> %s' $filepath $entitlements
+		set -l entitlements "$(codesign -d --entitlements - -- "$filepath")"
+		or begin
+			set result $status
+			continue
+		end
+		printf '%s –> %s\n' "$filepath" "$entitlements"
 	end
+	return $result
 end

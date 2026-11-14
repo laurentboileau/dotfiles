@@ -19,9 +19,11 @@ function desktop_toggle --description "Toggle visibility of desktop icons."
 	# Handle options
 	if set -q _flag_shown
 		defaults write com.apple.finder CreateDesktop -bool true
+		or return $status
 		killall Finder
 	else if set -q _flag_hidden
 		defaults write com.apple.finder CreateDesktop -bool false
+		or return $status
 		killall Finder
 	else
 		desktop_toggle --help
