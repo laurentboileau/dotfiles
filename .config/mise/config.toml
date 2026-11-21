@@ -6,62 +6,22 @@ dotfiles.root = "~/.dotfiles"
 dotfiles.default_mode = "symlink"
 
 [tools]
-claude-code = "latest"
-ffmpeg = "latest"
-mas = "latest"
 usage = "latest"
-xcodegen = "latest"
-yt-dlp = { version = "latest", rename_exe = "yt-dlp" }
 
 [bootstrap.brew]
 adopt = true
 
 [bootstrap.packages]
 "brew:fish" = "latest"
-"brew:gh" = "latest"
-"brew:gnupg" = "latest"
-"brew:irssi" = "latest"
-"brew:pinentry-mac" = "latest"
-"brew:wget" = "latest"
-"brew-cask:cleanupbuddy" = "latest"
-"brew-cask:downie" = "latest"
-"brew-cask:ghostty" = "latest"
-"brew-cask:iina" = "latest"
-"brew-cask:music-miniplayer" = "latest"
-"brew-cask:netnewswire" = "latest"
-"brew-cask:nova" = "latest"
-"brew-cask:permute" = "latest"
-"brew-cask:raycast" = "latest"
-"brew-cask:sim-genie" = "latest"
-"brew-cask:superduper" = "latest"
-"brew-cask:tower" = "latest"
-"brew-cask:xcodes-app" = "latest"
-"mas:1365531024" = "latest" # 1Blocker
-"mas:1460684638" = "latest" # Core Data Lab
-"mas:411643860" = "latest" # DaisyDisk
-"mas:290986013" = "latest" # Deliveries
-"mas:1388020431" = "latest" # DevCleaner
-"mas:640199958" = "latest" # Developer
-"mas:6444602274" = "latest" # Ivory
-"mas:361285480" = "latest" # Keynote
-"mas:361304891" = "latest" # Numbers
-"mas:361309726" = "latest" # Pages
-"mas:6761201231" = "latest" # Pastebot
-"mas:1663047912" = "latest" # Screens
-"mas:1090940630" = "latest" # TaskPaper
-"mas:1491071483" = "latest" # Tot
 
 [dotfiles]
 "~/.dotfiles" = "~/Developer/dotfiles"
-"~/.config/mise/config.toml" = "~/Developer/dotfiles/.config/mise/config.toml"
+"~/.config/mise" = { source = "~/Developer/dotfiles/.config/mise", mode = "symlink-each" }
 "~/.config/fish/conf.d" = { source = "~/.dotfiles/.config/fish/conf.d", mode = "symlink-each" }
 "~/.config/fish/functions" = { source = "~/.dotfiles/.config/fish/functions", mode = "symlink-each" }
 "~/.config/ghostty/config.ghostty" = "~/.dotfiles/.config/ghostty/config.ghostty"
-"~/.config/yt-dlp/config" = "~/.dotfiles/.config/yt-dlp/config"
 "~/.gitconfig" = "~/.dotfiles/.gitconfig"
 "~/.gitignore-global" = "~/.dotfiles/.gitignore-global"
-"~/.gnupg/gpg-agent.conf" = "~/.dotfiles/.gnupg/gpg-agent.conf"
-"~/.gnupg/gpg.conf" = "~/.dotfiles/.gnupg/gpg.conf"
 
 [bootstrap.mise_shell_activate]
 fish = "activate"

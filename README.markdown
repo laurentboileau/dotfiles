@@ -33,14 +33,36 @@ links, so the alias must already exist:
 cd ~/Developer/dotfiles
 ln -s ~/Developer/dotfiles ~/.dotfiles
 mkdir -p ~/.config/mise
-ln -s ~/Developer/dotfiles/.config/mise/config.toml ~/.config/mise/config.toml
-~/bin/mise trust .config/mise/config.toml
+ln -s ~/Developer/dotfiles/.config/mise/*.toml ~/.config/mise/
+for f in .config/mise/*.toml; do ~/bin/mise trust "$f"; done
 ~/bin/mise trust mise.toml
-~/bin/mise bootstrap --dry-run
-~/bin/mise bootstrap --yes
+```
+
+Pick the environments for this Mac and bootstrap. `--save-env` remembers them
+in `~/.config/mise/miserc.local.toml`, so later runs of `mise bootstrap` don't
+need `-E`:
+
+| Mac         | Environments             |
+| ----------- | ------------------------ |
+| Mac Studio  | `home,mac-studio`        |
+| MacBook Pro | `home,macbook-pro`       |
+
+```
+~/bin/mise bootstrap -E home,mac-studio --dry-run
+~/bin/mise bootstrap -E home,mac-studio --save-env --yes
 ```
 
 Start a new shell to apply changes.
+
+### Configuration layout
+
+- `.config/mise/config.toml`: shell, mise and dotfiles setup shared by every Mac (no apps)
+- `.config/mise/config.home.toml`: everything personal Macs install (apps, tools, GPG, git identity)
+- `.config/mise/config.<machine>.toml`: one specific Mac
+- `.config/mise/config.local.toml`: machine-local and untracked; never commit it
+
+The git email and signing settings live in `.config/git/identity.<env>`, which
+`.gitconfig` includes from `~/.config/git/identity`.
 
 ## Autocompletion
 

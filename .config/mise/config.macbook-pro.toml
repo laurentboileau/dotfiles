@@ -1,0 +1,3 @@
+[bootstrap.packages]
+"brew-cask:cleanupbuddy" = "latest"
+"brew-cask:soundsource" = "latest"

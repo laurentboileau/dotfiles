@@ -1,0 +1,2 @@
+# Machine-local mise config (may contain secrets); never commit
+.config/mise/*.local.toml

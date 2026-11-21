@@ -1,0 +1,7 @@
+[bootstrap.packages]
+"brew-cask:downie" = "latest"
+"brew-cask:iina" = "latest"
+"brew-cask:music-miniplayer" = "latest"
+"brew-cask:permute" = "latest"
+"brew-cask:superduper" = "latest"
+"mas:411643860" = "latest" # DaisyDisk
