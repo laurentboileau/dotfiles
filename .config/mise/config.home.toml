@@ -2,7 +2,6 @@
 claude-code = "latest"
 ffmpeg = "latest"
 mas = "latest"
-xcodegen = "latest"
 yt-dlp = { version = "latest", rename_exe = "yt-dlp" }
 
 [bootstrap.packages]
