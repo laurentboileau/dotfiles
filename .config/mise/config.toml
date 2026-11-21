@@ -6,6 +6,7 @@ dotfiles.root = "~/.dotfiles"
 dotfiles.default_mode = "symlink"
 
 [tools]
+claude-code = "latest"
 ffmpeg = "latest"
 mas = "latest"
 usage = "latest"
