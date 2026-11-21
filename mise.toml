@@ -1,11 +1,11 @@
 [tools]
-node = "latest"
-"npm:eclint" = "latest"
+node = "26"
+"npm:eclint" = "2.8.1"
 
 [tasks.check]
 description = "Lint Check"
-run = "mise exec npm -- eclint check ."
+run = "eclint check ."
 
 [tasks.fix]
 description = "Lint Fix"
-run = "mise exec npm -- eclint fix ."
+run = "eclint fix ."
