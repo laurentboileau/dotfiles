@@ -6,7 +6,6 @@ dotfiles.root = "~/.dotfiles"
 dotfiles.default_mode = "symlink"
 
 [tools]
-deno = "latest"
 ffmpeg = "latest"
 mas = "latest"
 usage = "latest"
