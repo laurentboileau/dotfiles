@@ -1,1 +1,1 @@
-set -gx EDITOR "/usr/local/bin/nova -w"
+set -gx EDITOR "nova -w"
